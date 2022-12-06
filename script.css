@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    border: 1px solid rgb(197, 193, 193);
+}
+
+
+.image {
+    width: 100%;
+    
+    height: 200px;
+}
+
+.card--info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card--info>p {
+    padding: 5px;
+    margin: 7px;
+    margin-right: 20px;
+}
+
+.card--info>p>span {
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.card--info_name {
+    background-color: yellow;
+    color: black;
+}
+
+.card--info_course {
+    background-color: green;
+    color: white;
+}
+
+.card--info_author {
+    background-color: red;
+    color: white;
+}
+
+.image-img{
+    width: 100%;
+    height: 100%;
+}
